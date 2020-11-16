@@ -1,0 +1,57 @@
+.todo_list {
+    text-align: center;
+    border: 1px solid black;
+    width: 90%;
+    display: flex;
+    background-image: url(img/noteTexture.png);
+}
+
+.inner_list {
+    flex-direction: column;
+}
+
+.configure {
+    margin-right: 5px;
+}
+
+.edit {
+    cursor: pointer;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.myModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.editModal {
+    background-image: url(img/modalTexture.png);
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media (min-width: 420px) {
+    .editModal {
+        width: 30%;
+    }    
+}
+
+.editModal input {
+    font-size: 20px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+/* ::-webkit-input-placeholder {
+    text-align: center;
+} */
